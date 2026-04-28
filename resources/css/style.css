@@ -1,87 +1,52 @@
-/* --- Global Styles --- */
+/* 1. Global Styles */
 body {
     background-color: black;
     color: white;
-    /* Redline: Verdana Font Family, Text Align Center */
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, sans-serif; /* Redline requirement */
     text-align: center;
     margin: 0;
-    padding: 0;
 }
 
-/* --- Header Section --- */
-header {
-    padding-top: 60px;
-    padding-bottom: 20px;
+/* 2. Main Header (Top) */
+h1 {
+    font-size: 50px;           /* Redline requirement */
+    font-weight: normal;       /* Redline requirement */
+    margin-top: 50px;
 }
 
-.main-header {
-    /* Redline: Verdana, Normal Weight, 50px Font Size */
-    font-family: Verdana, sans-serif;
+/* 3. Links (Aquamarine) */
+a {
+    color: Aquamarine;         /* Redline requirement */
+    font-size: 16px;           /* Redline requirement */
+}
+
+/* 4. Video & Images */
+video, img {
+    max-width: 100%;
+    display: block;
+    margin: 32px auto;         /* Centers media and adds vertical spacing */
+}
+
+/* 5. Sub-Headers (Travel Guide) */
+h2 {
+    font-size: 42px;           /* Redline requirement */
+    font-weight: 300;          /* Redline requirement (Light weight) */
+}
+
+/* 6. Description Text */
+h3, .description {
+    font-size: 21px;           /* Redline requirement */
+    color: Gray;               /* Redline requirement */
     font-weight: normal;
-    font-size: 50px;
-    margin-bottom: 15px;
 }
 
-/* --- Download Link Styling --- */
-.download-link {
-    /* Redline: 16px Font Size */
-    font-size: 16px;
-    margin-top: 0;
-}
-
-.download-link a {
-    /* Redline: Aquamarine Color */
-    color: Aquamarine;
-    text-decoration: underline; /* Standard practice for links, or use none if preferred */
-}
-
-/* --- Content Styles --- */
-section {
-    margin-bottom: 60px;
-}
-
-video {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.section-header {
-    /* Redline for "Your personal travel guide": Verdana, 300 Weight, 42px Font Size */
-    font-family: Verdana, sans-serif;
-    font-weight: 300;
-    font-size: 42px;
-    margin-top: 40px;
-}
-
-.description {
-    /* Redline: Verdana, 21px Font Size, Gray Color */
-    font-family: Verdana, sans-serif;
-    color: Gray;
-    font-size: 21px;
-    margin-bottom: 30px;
-}
-
-.landscape-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.phone-icon {
-    display: block;
-    margin: 0 auto 10px auto;
-}
-
-/* --- Footer Styles --- */
+/* 7. Footer */
 footer {
-    /* Redline: Text Align Right */
-    text-align: right;
-    padding: 20px;
+    text-align: right;         /* Redline requirement */
+    padding: 40px 20px;
 }
 
 .copyright {
-    /* Redline: Gray Color */
-    color: Gray;
+    color: Gray;               /* Redline requirement */
     font-size: 12px;
 }
