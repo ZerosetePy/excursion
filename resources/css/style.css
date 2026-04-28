@@ -1,40 +1,45 @@
-/* --- Global Styles --- */
-body {
-    background-color: black;
-    color: white;
-    /* Use a monospace font for a technical/development look */
-    font-family: "Courier New", Courier, monospace; 
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Center everything by default */
+/* --- Content Styles --- */
+
+section {
+    margin-bottom: 60px; /* Spacing between sections */
 }
 
-/* --- Header Styling --- */
-header {
-    padding-top: 60px; /* Space at the top of the page */
-    padding-bottom: 20px; /* Space before the next content block */
+video {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
-.main-header {
-    font-size: 28px; /* Approximate size from the mock */
+.section-header {
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 15px; /* Space between header and download link */
-    max-width: 90%; /* Ensure text doesn't hit edges on small screens */
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 40px;
 }
 
-/* --- Download Link Styling --- */
-.download-link {
-    font-size: 16px;
-    margin-top: 0;
+.description {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
-.download-link a {
-    color: #4ade80; /* A vibrant, saturated cyan-green from the image */
-    text-decoration: none; /* Remove underline */
+.landscape-img {
+    max-width: 100%;
+    height: auto;
 }
 
-.download-link a:hover {
-    text-decoration: underline; /* Standard hover effect */
+.phone-icon {
+    width: 40px; /* Standardizing icon size */
+    margin-bottom: 10px;
+}
+
+/* --- Footer Styles --- */
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
+
+.copyright {
+    color: gray;
+    font-size: 12px;
 }
