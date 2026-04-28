@@ -1,7 +1,44 @@
-/* --- Content Styles --- */
+/* --- Global Styles --- */
+body {
+    background-color: black;
+    color: white;
+    /* Redline: Verdana Font Family, Text Align Center */
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+/* --- Header Section --- */
+header {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.main-header {
+    /* Redline: Verdana, Normal Weight, 50px Font Size */
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* --- Download Link Styling --- */
+.download-link {
+    /* Redline: 16px Font Size */
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.download-link a {
+    /* Redline: Aquamarine Color */
+    color: Aquamarine;
+    text-decoration: underline; /* Standard practice for links, or use none if preferred */
+}
+
+/* --- Content Styles --- */
 section {
-    margin-bottom: 60px; /* Spacing between sections */
+    margin-bottom: 60px;
 }
 
 video {
@@ -11,14 +48,18 @@ video {
 }
 
 .section-header {
-    font-size: 24px;
-    font-weight: bold;
+    /* Redline for "Your personal travel guide": Verdana, 300 Weight, 42px Font Size */
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
     margin-top: 40px;
 }
 
 .description {
-    color: gray;
-    font-size: 14px;
+    /* Redline: Verdana, 21px Font Size, Gray Color */
+    font-family: Verdana, sans-serif;
+    color: Gray;
+    font-size: 21px;
     margin-bottom: 30px;
 }
 
@@ -28,18 +69,19 @@ video {
 }
 
 .phone-icon {
-    width: 40px; /* Standardizing icon size */
-    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
 /* --- Footer Styles --- */
-
 footer {
+    /* Redline: Text Align Right */
     text-align: right;
     padding: 20px;
 }
 
 .copyright {
-    color: gray;
+    /* Redline: Gray Color */
+    color: Gray;
     font-size: 12px;
 }
